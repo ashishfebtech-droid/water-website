@@ -92,7 +92,7 @@ function About() {
           <div className="relative order-2 lg:order-1">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-white/20">
               <img 
-                src="https://images.unsplash.com/photo-1541696445555-b3501c8db110?w=800&q=80" 
+                src="https://images.unsplash.com/photo-1571896349842-33c89424de9d?w=800&q=80" 
                 alt="Water Plant" 
                 className="w-full h-[300px] sm:h-[400px] lg:h-[500px] object-cover"
               />
@@ -137,9 +137,9 @@ function About() {
               ))}
             </div>
 
-            <button className="bg-white/20 backdrop-blur-md hover:bg-white/30 border-2 border-white text-white px-8 py-4 rounded-full font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+            {/* <button className="bg-white/20 backdrop-blur-md hover:bg-white/30 border-2 border-white text-white px-8 py-4 rounded-full font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
               Learn More About Us
-            </button>
+            </button> */}
           </div>
         </div>
 
