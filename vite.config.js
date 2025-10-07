@@ -7,4 +7,7 @@ export default defineConfig({
     react(),
     tailwindcss()  // YE LINE IMPORTANT HAI
   ],
+   build: {
+    outDir: 'build'
+  }
 })

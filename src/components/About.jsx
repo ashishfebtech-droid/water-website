@@ -92,7 +92,7 @@ function About() {
           <div className="relative order-2 lg:order-1">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-white/20">
               <img 
-                src="https://images.unsplash.com/photo-1571896349842-33c89424de9d?w=800&q=80" 
+                src="https://images.unsplash.com/photo-1571896349842-33c89424de2d" 
                 alt="Water Plant" 
                 className="w-full h-[300px] sm:h-[400px] lg:h-[500px] object-cover"
               />
