@@ -1,0 +1,18 @@
+/* index.css mein */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Header height ke liye offset */
+}
+
+/* Custom scroll animation */
+.smooth-scroll {
+  scroll-behavior: smooth;
+  transition: scroll-behavior 0.5s ease-in-out;
+}
+
+/* Even smoother with transforms */
+.ultra-smooth {
+  scroll-behavior: smooth;
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+@import "tailwindcss";
