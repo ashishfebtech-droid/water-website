@@ -1,7 +1,7 @@
 import React from "react";
 import { FaHeart, FaUsers, FaShield } from "react-icons/fa";
 
-const WhoWeAre = () => {
+function WhoWeAre() {
   return (
     <section
       id="about"
@@ -103,6 +103,6 @@ const WhoWeAre = () => {
       </div>
     </section>
   );
-};
+}
 
 export default WhoWeAre;

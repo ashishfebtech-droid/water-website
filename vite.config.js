@@ -7,8 +7,8 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: '/water-website/',
+  // base: '/water-website/',
   build: {
-    outDir: 'build'  // YEH CHANGE KARO
+    outDir: 'build'
   }
 })
