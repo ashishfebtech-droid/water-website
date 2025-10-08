@@ -5,9 +5,10 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss()  // YE LINE IMPORTANT HAI
+    tailwindcss()
   ],
-   build: {
-    outDir: 'dist'
+  base: '/water-website/',
+  build: {
+    outDir: 'build'  // YEH CHANGE KARO
   }
 })
